@@ -1,0 +1,21 @@
+{
+  "name": "@hotelflex/session",
+  "version": "1.0.1",
+  "main": "src",
+  "scripts": {
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "prettier": "1.13.7",
+    "pretty-quick": "^1.6.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "dependencies": {
+    "moment": "^2.23.0"
+  }
+}
